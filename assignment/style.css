@@ -1,11 +1,46 @@
 /* Give your page a fun background color */
 
-/* Make the header and footer a different color from the background */
+body {
+        background: url(../assignment/assets/Isla.jpg);
+        background-size: cover;
+        width: 100 auto;
+        margin: 40px auto;
+        font-size: 1em;
 
-/* Align the h1 containing your name in the center of the header*/
+}
 
-/* Make your p tag a different color and italic */
+#header {
+  background-color: red; /* Make the header and footer a different color from the background */}
 
-/* Put a border around your image */
+#footer {
+background-color: green; /* Make the header and footer a different color from the background */}
+
+h1 {
+    font-family: "Comic Sans MS";
+    text-align: center;/* Align the h1 containing your name in the center of the header*/
+  }
+
+p {
+  font-style: italic;
+  color: white;
+  }/* Make your p tag a different color and italic */
+
+
+
+img {
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #555;
+  filter: grayscale(100%)*/
+}
+
+#headshot {
+    border: 5px solid #555; /* Put a border around your image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Change the font-family of your list */
