@@ -13,7 +13,7 @@ body {
   background-color: red; /* Make the header and footer a different color from the background */}
 
 #footer {
-background-color: green; /* Make the header and footer a different color from the background */}
+  background-color: green; /* Make the header and footer a different color from the background */}
 
 h1 {
     font-family: "Comic Sans MS";
@@ -42,5 +42,15 @@ img {
     margin-right: auto;
 }
 
+#list {
+    font-family: "Gill Sans";/* Change the font-family of your list */
+    color:brown;
+}
 
-/* Change the font-family of your list */
+#list-header {
+
+}
+
+.pic:hover {
+  transform: scaleX(-1);
+}
