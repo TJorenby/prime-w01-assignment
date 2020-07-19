@@ -1,39 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html id="html">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script type="text/javascript" src="helloWorld.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-<body>
+
+<body id="body" class="my-container">
+
     <!-- Create a header with an <h1> containing your name -->
     <div id="header">
-    <h1>Tyler Jorenby</h1>
-
+      <h1>Tyler Jorenby</h1>
     </div>
+
     <!-- Include an image -->
-    <div>
-    <img src="../assignment/assets/TylerHeadshot2.jpg" id="headshot" class ="pic"/>
+    <div id="headshot">
+      <img src="../assignment/assets/TylerHeadshot2.jpg" style= width:"200px"; height="220px"; class ="pic"/>
     </div>
 
     <!-- Create an unordered list with 3 list items of fun facts about you -->
-    <div id="list-header">
-    <h2>Three Things About Me</h2>
-    </div>
 
-<div id="list">
-    <li>Chipotle is, hands down, my favorite quick bite</li>
-    <li>My wife and I have two dogs and a cat</li>
-    <li>My favorite vacation spot is Isla Mujeres, Mexico</li>
-    </div>
+<div id="list" class="typewriter">
+
+  <ul>
+    <li>Favorite Television Series | Antiques Roadshow...for real</li>
+    <li>Favorite Local Brew | Socialable Ciderwerks</li>
+    <li>Favorite Vacation Spot | Isla Mujeres, MX</li>
+
+    </ul>
+</div>
+
+<div id="Netscape">
+  <h4> optimized for... <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank"> <img src="../assignment/assets/Netscape_Gif2.gif" width="40px" height="30px"/></a>
+  | <a href="https://en.wikipedia.org/wiki/Internet_Explorer_4" target="_blank"><img src="../assignment/assets/ie4get_animated.gif" width="80px" height="30px"/></a> </h4>
+</div>
+
+
     <!-- Create a footer -->
-
 <div id="footer">
-  <p><q>... for everything else, there's MasterCard - McCann-Erickson</q></p>
+  <p><q>An obstical is often a stepping stone</q>-Prescott</p>
 </div>
     <!-- Inside your footer, put a <p> with your favorite quote -->
 </body>
